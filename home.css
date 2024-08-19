@@ -1,0 +1,52 @@
+@media screen and (max-width: 991px) {
+    #mid {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #small {
+        display: none;
+    }
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.container1{
+    position: relative;
+}
+.container1::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./Images/homepage.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.fa-cart-shopping{
+    font-size: 15px;
+}
+
+.container1 {
+    font-family: cursive;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 70vh;
+}
+.container1 h1{
+    font-size: 4rem;
+}
+.container1 p{
+    font-size: 20px;
+}
+img{
+    height: 260px;
+}
